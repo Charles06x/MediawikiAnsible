@@ -11,4 +11,6 @@ RUN ["chmod","0600","/root/.ssh/authorized_keys"]
 
 EXPOSE 22
 
+EXPOSE 8080
+
 CMD    ["/usr/sbin/sshd", "-D"]
